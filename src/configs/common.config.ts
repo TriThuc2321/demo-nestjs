@@ -24,7 +24,6 @@ export const configureCors = () => {
   return {
     allowedHeaders: '*',
     origin: origins ?? ['http://localhost:3000'],
-    credentials: true,
   };
 };
 
